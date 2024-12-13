@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/SH WORD-01.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -13,8 +13,11 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import ShuvoPDF from '../Assets/Chemistry.pdf';
+
 
 import { CgFileDocument } from "react-icons/cg";
+import PdfIcon from "./Projects/PdfIcon";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -39,7 +42,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <h1 className="header_logu"> SH.</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -82,15 +85,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -102,9 +96,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+
+            <Nav.Item>
+              <Nav.Link
+                href={ShuvoPDF} download="My_CV.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <PdfIcon /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+
             <Nav.Item className="fork-btn">
               <Button
-                href=""
+                href="https://github.com/ShibluHasan/My_Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
