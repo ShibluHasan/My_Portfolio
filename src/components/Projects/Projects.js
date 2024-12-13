@@ -48,7 +48,8 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Student Performance Prediction"
-              description="A project that utilizes machine learning algorithms to predict student performance based on academic, demographic, and socio-economic data, aiming to identify at-risk students early."
+              description="A project that utilizes machine learning algorithms to predict student performance based on academic, demographic, and socio-economic data, aiming to identify at-risk students early.Use LGBM 
+and XGB."
               ghLink="https://github.com/ShibluHasan/student_performance_predict"
                           
             />
@@ -73,6 +74,28 @@ function Projects() {
               description="Recipe calories are calculated by summing the caloric content of all ingredients. Multiply each ingredient’s calories per unit by its quantity, then add them. Divide the total by servings to find calories per serving for accurate nutritional information."
               ghLink="https://github.com/programming-hero-web-course1/b9a7-chefs-table-ShibluHasan"
               demoLink="https://sparkling-flan-200f16.netlify.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Mahlun (E-commerce)"
+              description="Mahlun was an ecommerce website , technologies used React ja, Redux, Node/Express js and MySQL, Tailwind CSS, and  My role was full-stack developer. technologies used React ja, Redux, Node/Express js and MySQL, Tailwind CSS."
+              demoLink="https://www.mahlun.com"
+                          
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Wozaif (A job site)"
+              description=" Wazaif is a running project. It will be a job site like BD jobs. technologies used React js,Next Js, Redux, Node/Express js and AWS, Tailwind CSS, and  My role was Frontend developer."
+              demoLink="https://dev.djxlw0btr3uzt.amplifyapp.com/find-agency"
+                          
             />
           </Col>
 

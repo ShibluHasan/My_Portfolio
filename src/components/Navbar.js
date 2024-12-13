@@ -13,7 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import ShuvoPDF from '../Assets/Chemistry.pdf';
+import ShuvoPDF from '../Assets/Shiblu.pdf';
 
 
 import { CgFileDocument } from "react-icons/cg";
@@ -99,7 +99,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href={ShuvoPDF} download="My_CV.pdf"
+                href={ShuvoPDF} download="Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
