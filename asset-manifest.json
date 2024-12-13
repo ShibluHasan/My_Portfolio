@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.c8e39e27.css",
-    "main.js": "/My_Portfolio/static/js/main.59706df6.js",
+    "main.js": "/My_Portfolio/static/js/main.3c91c761.js",
     "static/js/415.4d6acbeb.chunk.js": "/My_Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/My_Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Shuvo.pdf": "/My_Portfolio/static/media/Shuvo.5d42c56e2a4899759d92.pdf",
-    "static/media/Chemistry.pdf": "/My_Portfolio/static/media/Chemistry.3d6c83b3270fdb4ace86.pdf",
+    "static/media/Shiblu.pdf": "/My_Portfolio/static/media/Shiblu.9a1cb911187a1735fcb7.pdf",
     "static/media/leaf.png": "/My_Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/shovo bhai.png": "/My_Portfolio/static/media/shovo bhai.f72de53f94918105ca68.png",
     "static/media/emotion.png": "/My_Portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
@@ -20,12 +20,12 @@
     "static/media/pre.svg": "/My_Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/My_Portfolio/index.html",
     "main.c8e39e27.css.map": "/My_Portfolio/static/css/main.c8e39e27.css.map",
-    "main.59706df6.js.map": "/My_Portfolio/static/js/main.59706df6.js.map",
+    "main.3c91c761.js.map": "/My_Portfolio/static/js/main.3c91c761.js.map",
     "415.4d6acbeb.chunk.js.map": "/My_Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/My_Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8e39e27.css",
-    "static/js/main.59706df6.js"
+    "static/js/main.3c91c761.js"
   ]
 }
