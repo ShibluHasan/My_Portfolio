@@ -13,7 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import ShuvoPDF from '../Assets/Shiblu.pdf';
+import ShuvoPDF from '../Assets/Resume_Shiblu.pdf';
 
 
 import { CgFileDocument } from "react-icons/cg";
